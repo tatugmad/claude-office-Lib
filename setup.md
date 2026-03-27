@@ -47,7 +47,7 @@
 ### TODO 2: リポジトリの作成
 
 - **目的**: テンプレートからユーザー専用のPrivateリポジトリを作成する
-- **URL**: https://github.com/tatugmad/claude-office-template → 「Use this template」→「Create a new repository」
+- **URL**: https://github.com/tatugmad/claude-office-Repository → 「Use this template」→「Create a new repository」
 - **設定**:
   - Repository name: `OfficeWork` を推奨（半角英数字のみ、スペースなし）
   - 公開範囲: 必ず **Private**
