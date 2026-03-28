@@ -13,6 +13,6 @@
 2. いいえ、やめておきます
 
 【分岐】:
-- 「はい」→ 以下のURLからセットアップ手順書を取得すること。**CDNキャッシュを回避するため、URLの末尾に `?v=` と現在のUNIXタイムスタンプを付与してからアクセスすること。** 取得時に余計なテキストを表示しない。
-  https://raw.githubusercontent.com/tatugmad/claude-office-Lib/main/setup/setup.md
+- 「はい」→ 以下のURLからセットアップ手順書を取得すること。レスポンスはJSONであり、`content` フィールドをbase64デコードしてMarkdownとして使用すること。取得時に余計なテキストを表示しない。
+  https://api.github.com/repos/tatugmad/claude-office-Lib/contents/setup/setup.md
 - 「いいえ」→ 「承知しました。セットアップを行う場合は、このファイルを再度アップロードしてください。」とだけ表示して終了。
