@@ -1,6 +1,6 @@
 # Claude Office セットアップガイド
 
-<!-- setup-version: 1.0.0-beta.20 -->
+<!-- setup-version: 1.0.0-beta.21 -->
 
 ## Claudeへの指示
 
@@ -10,7 +10,7 @@
 
 【表示メッセージ】: 以下をそのまま表示すること:
 
-「あなた専用のClaude利用環境を構築します。（セットアップガイド v1.0.0-beta.20）
+「あなた専用のClaude利用環境を構築します。（セットアップガイド v1.0.0-beta.21）
 
 **セットアップが完了すると:**
 - クラウド上にあなた専用のファイル保存場所（リポジトリ）が作られます。GitHubというサービスを使いますが、あなたしかアクセスできない設定にしますのでご安心ください。
@@ -114,7 +114,7 @@
 - **URL**: https://github.com/tatugmad/claude-office-Repository
 - **手順の案内方法**: URLを開いたら「緑色のボタンは見えますか？ ボタンに何と書いてありますか？」と確認する。想定は「Use this template」ボタン。確認できたら以下を案内:
   - 「Use this template」→「Create a new repository」を選択
-  - Repository name: `OfficeWork` を推奨（半角英数字のみ、スペースなし）
+  - Repository name: リポジトリ名を決めて入力してください。これがクラウド上のファイル保存場所の名前になります。半角英数字・ハイフン・アンダースコアのみ使用可能で、日本語は使えません。自分がわかりやすい名前を自由につけられます（例: OfficeWork、my-documents、work-files など）
   - 公開範囲: 「Private」と書かれた選択肢を確認してもらい、選択
   - Include all branches: チェックしない
   - 「Create repository」をクリック
